@@ -4,7 +4,7 @@ services:
   readme-stats:
     build: .
     ports:
-      - "3000:3000"
+      - "3000:9000"
     environment:
-      - PAT_1=your_github_pat_token_here
+      - PAT_1=ghp_YourActualTokenHere123456
     restart: always
