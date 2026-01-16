@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  readme-stats:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - PAT_1=your_github_pat_token_here
+    restart: always
